@@ -1,0 +1,23 @@
+.gradestable, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-style: dotted;
+  }
+
+  .grades {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    padding: 30px;
+    height: auto;
+    background: rgba(251, 251, 251, 0.33);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    border: 1px solid rgba(253, 253, 253, 0.39);
+  }
+
+  .grades{
+      margin-top: 20px;
+      align-items: center;
+  } 

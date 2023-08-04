@@ -1,0 +1,15 @@
+.Posts {
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    overflow: auto;
+    padding: 0.5rem;
+    width: 100%;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.Posts::-webkit-scrollbar {
+    display: none;
+}
